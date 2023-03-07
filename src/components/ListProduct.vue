@@ -144,6 +144,7 @@
                   <input type="text" required/>
                   <hr>
                   <input type="submit" @click="buyConfirm()"/>
+                  <!--  -->
                 </div>
         </div>
       </div>
@@ -159,7 +160,7 @@
   const cartProduct = ref([2]);
   
   */
-  
+  //import { db } from '@/firebase'
   export default {
     name: 'ListProduct',
   
@@ -207,6 +208,7 @@
       },
       buyConfirm() {
         console.log("asd")
+        
         this.checkBill = false
       }
     },
